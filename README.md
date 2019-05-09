@@ -12,7 +12,11 @@ config/app.php
 'aliases' => [
   .....
  'PDF' => Barryvdh\DomPDF\Facade::class,
-] ```
+] 
+```
 
-Create `HomeController.php` and in it
-```laravel use \PDF;```
+Create HomeController.php and in it
+```php
+use \PDF;
+```
+
