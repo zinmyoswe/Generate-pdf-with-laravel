@@ -1,8 +1,7 @@
 # Generate-pdf-with-laravel
 Generate pdf with laravel
 
-```composer
-composer require barryvdh/laravel-dompdf```
+`composer require barryvdh/laravel-dompdf`
 
 config/app.php
 ```php
@@ -14,3 +13,6 @@ config/app.php
   .....
  'PDF' => Barryvdh\DomPDF\Facade::class,
 ] ```
+
+Create `HomeController.php` and in it
+```laravel use \PDF;```
