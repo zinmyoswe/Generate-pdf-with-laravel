@@ -1,10 +1,11 @@
 # Generate-pdf-with-laravel
 Generate pdf with laravel
 
-`composer require barryvdh/laravel-dompdf`
+```composer
+composer require barryvdh/laravel-dompdf```
 
 config/app.php
-```laravel
+```php
 'providers' => [ 
   .....
   Barryvdh\DomPDF\ServiceProvider::class,
